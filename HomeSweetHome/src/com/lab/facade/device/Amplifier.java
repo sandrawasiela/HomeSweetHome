@@ -18,6 +18,7 @@ public class Amplifier implements Device{
 	
 		
 	}
+	//komentarz
 
 	@Override
 	public void off() {
