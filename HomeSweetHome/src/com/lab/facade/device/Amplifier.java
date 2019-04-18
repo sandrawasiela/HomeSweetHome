@@ -3,6 +3,7 @@ package com.lab.facade.device;
 public class Amplifier implements Device{
 
 	 public Tuner tuner;
+	 public DvdPlayer dvdplayer;
 	
 	 
 	public  void setStereoSound() {
@@ -15,6 +16,7 @@ public class Amplifier implements Device{
 	public void on() {
 		// TODO Auto-generated method stub
 		tuner.on();
+		dvdplayer.on();
 	
 		
 	}
@@ -24,6 +26,7 @@ public class Amplifier implements Device{
 	public void off() {
 		// TODO Auto-generated method stub
 		tuner.off();
+		dvdplayer.on();
 		
 		
 	}
